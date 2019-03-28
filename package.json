@@ -2,9 +2,14 @@
   "name": "googlesearch",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rtonn.github.io/googlebooks/", 
+  "homepage": "https://rtonn.github.io/googlebooks/",
   "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
     "gh-pages": "^2.0.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.4.20",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
@@ -13,8 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -25,5 +30,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtonn/googlebooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtonn/googlebooks/issues"
+  }
 }
